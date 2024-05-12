@@ -1,0 +1,86 @@
+/* Header */
+.header {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 20px 40px; /* Add some padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly across the header */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.header-logo {
+    width: 150px; /* Set width of logo */
+}
+
+.header-menu {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display menu items horizontally */
+}
+
+.header-menu li {
+    margin-left: 20px; /* Add some spacing between menu items */
+    cursor: pointer; /* Add cursor pointer */
+    font-weight: bold; /* Make font bold */
+    font-size: 18px; /* Make font slightly bigger */
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+.header-menu li:first-child {
+    margin-left: 0; /* Remove left margin from the first menu item */
+}
+
+.header-menu li:hover {
+    color: #e28743; /* Change text color on hover */
+}
+
+/* Body */
+.body {
+    padding: 40px;
+}
+
+.search-bar {
+    margin-bottom: 40px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.restaurent-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Add gap between restaurant cards */
+}
+
+.restaurent-card {
+    width: calc(30% - 40px); /* Adjust width */
+    padding: 20px; /* Adjust padding */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    overflow: hidden; /* Hide overflow content */
+}
+
+
+.restaurent-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0; /* Rounded corners for top */
+}
+
+.restaurent-card h3 {
+    margin: 20px 0 10px; /* Adjust margin */
+    font-size: 22px;
+    color: #333; /* Dark text color */
+}
+
+.restaurent-card p {
+    margin: 0;
+    color: #666; /* Medium grey text color */
+}
